@@ -1,0 +1,35 @@
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+}
+
+button {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f4f4;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #e0e0e0;
+}
